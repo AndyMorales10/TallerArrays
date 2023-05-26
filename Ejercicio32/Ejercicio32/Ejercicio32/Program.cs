@@ -13,6 +13,7 @@ namespace Ejercicio32
             n = Convert.ToInt32(Console.ReadLine());
 
             int[] numeros = new int[n];
+
             for (int i = 0; i < n; i++)
             {
                 Console.Write("Ingrese el número {0}: ", i + 1);
