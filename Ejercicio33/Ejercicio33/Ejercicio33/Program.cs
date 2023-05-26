@@ -17,7 +17,7 @@ namespace Ejercicio33
             for (int i = 0; i < 5; i++)
             {
                 Console.Write("Ingrese el elemento {0}: ", i + 1);
-                vector1[i] = Convert.ToInt32(Console.ReadLine());
+                vector1[i] = Convert.ToInt32(Console.ReadLine()); 
             }
 
             Console.WriteLine("\nIngrese los elementos del vector2: ");
